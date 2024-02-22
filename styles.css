@@ -1,5 +1,85 @@
 body{
     margin: 0;
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+img{
+    
+    width: auto;
+    height:200px;
+    display: block;
+}
+
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+} 
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: space-between;
+    color: white;
+}
+
+.top{
+    background-color: #1f2937;
+    padding: 50px;
+    text-align: left;
+    color: white;
+    
+}
+
+
+.middle{
+    padding: 50px;
+    text-align: center;   
+}
+.content{
+    display: flex ;
+    justify-content: space-around;
+}
+
+.quote{
+    background-color: #EFE7EB;
+    padding: 50px;
+    
+}
+
+
+.bottom{
+    padding: 40px;
+    margin: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    width: fit-content;
+    height: auto;
+}
+
+.call{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 50px;
+   
+}
+
+
+.Signup{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+
+    
 }
 
 footer{
